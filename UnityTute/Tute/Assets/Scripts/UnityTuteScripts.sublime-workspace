@@ -1,0 +1,2024 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"nav",
+				"navbar-height"
+			],
+			[
+				"navb",
+				"navbar-height"
+			],
+			[
+				"wrap",
+				"wrap-margin"
+			],
+			[
+				"proj",
+				"project-type"
+			],
+			[
+				"build",
+				"buildFolder"
+			],
+			[
+				"sourc",
+				"sourceFolder"
+			],
+			[
+				"FAV",
+				"FAVICON_DATA_FILE"
+			],
+			[
+				"browser",
+				"browserSync-updateStream"
+			],
+			[
+				"eas",
+				"ease-in-out"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"copy",
+				"copyrightYear"
+			],
+			[
+				"transi",
+				"transition-fastest"
+			],
+			[
+				"primary-link",
+				"primary-link-label"
+			],
+			[
+				"primary-li",
+				"primary-link-label"
+			],
+			[
+				"al",
+				"align-self"
+			],
+			[
+				"pee",
+				"peek_1"
+			],
+			[
+				"toLo",
+				"toLocaleTimeString\t(): string Date"
+			],
+			[
+				"getEl",
+				"getElementById\t( elementId: DOMString ): Element Document"
+			],
+			[
+				"attrib",
+				"attributionExpando"
+			],
+			[
+				"att",
+				"attributionExpando"
+			],
+			[
+				"tran",
+				"transition-fastest"
+			],
+			[
+				"colo",
+				"color_3"
+			],
+			[
+				"tra",
+				"transition-fast"
+			],
+			[
+				"ga",
+				"gap-small"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"bck",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "⠤\n≡ Controls.cs\n≡ Controls.cs.meta\n≡ Touch.cs\n≡ Touch.cs.meta\n≡ UnityTuteScripts.sublime-project\n≡ UnityTuteScripts.sublime-project.meta\n≡ UnityTuteScripts.sublime-workspace\n≡ UnityTuteScripts.sublime-workspace.meta",
+			"settings":
+			{
+				"buffer_size": 215,
+				"line_ending": "Unix",
+				"name": "𝌆 Scripts",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"file": "Controls.cs",
+			"settings":
+			{
+				"buffer_size": 909,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Touch.cs",
+			"settings":
+			{
+				"buffer_size": 569,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "I worked with a team that was responsible for the maintenance and operation of localized websites for many industry-leading companies, including several in the fortune 500.\n\nWe used a proxy-based system to translate sites on-the-fly, and I was generally responsible for the maintenance and operation of over a dozen clients.\n\nMy responsibilities ranged from fixing bugs as they occurred, to pushing important changes to live sites using both text-based and graphical interfaces.\n\nThroughout the course of my duties I used many tools, such as:\n  Tcsh shell commands\n  Subversion\n  HTML, JavaScript and CSS\n  Scripts using C shell, Bash, and Python",
+			"settings":
+			{
+				"buffer_size": 646,
+				"line_ending": "Unix",
+				"name": "I worked with a team that was responsible for the"
+			}
+		},
+		{
+			"file": "/home/devin/Dropbox/Home/Resumes/resume-sections.txt",
+			"settings":
+			{
+				"buffer_size": 552,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/devin/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 1201,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Experience with Oracle tools and PL/SQL\nExperience with java, python and C programming languages \nLinux, and Linux shell programming \nExperience writing web services\nExperience with Ellucian’s Banner ERP\nExperience in a university environment",
+			"settings":
+			{
+				"buffer_size": 242,
+				"line_ending": "Unix",
+				"name": "Experience with Oracle tools and PL/SQL"
+			}
+		}
+	],
+	"build_system": "Packages/SASS Build/SASS.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/SASS Build/SASS - Compressed.sublime-build",
+					""
+				],
+				[
+					"Packages/SASS Build/SASS.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/SASS Build/SASS.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pref",
+		"selected_items":
+		[
+			[
+				"pref",
+				"Preferences: Settings - User"
+			],
+			[
+				"unic",
+				"Unicode Character Insert: Show Panel"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"resource",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"lint",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"pretti",
+				"HTMLPrettify"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"prettify",
+				"HTMLPrettify: Set Prettify Preferences"
+			],
+			[
+				"auto",
+				"Auto indent"
+			],
+			[
+				"select tag",
+				"Selection: Expand to Tag"
+			],
+			[
+				"unico",
+				"Unicode Character Insert: Show Panel"
+			],
+			[
+				"unix",
+				"Line Endings: Unix"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"packagere",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"tag",
+				"Tag: Rename"
+			],
+			[
+				"han",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"package control user",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"handl",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"emmet",
+				"Set Syntax: Emmet"
+			],
+			[
+				"wrap",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"key",
+				"KeybindingHelper: Toggle show commands"
+			],
+			[
+				"handle",
+				"Snippet: partial(handlebars)"
+			],
+			[
+				"gulp",
+				"Gulp: Kill running tasks"
+			],
+			[
+				"line",
+				"Line Ending: Unix"
+			],
+			[
+				"gulp arb",
+				"Gulp: Run arbitrary task"
+			],
+			[
+				"syntax: sa",
+				"Set Syntax: Sass"
+			],
+			[
+				"grunt",
+				"Gulp: Run arbitrary task"
+			],
+			[
+				"kill",
+				"Gulp: Kill running tasks"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"syntax bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"css",
+				"Set Syntax: CSS3"
+			],
+			[
+				"unicode",
+				"Unicode Character Insert: Show Panel"
+			],
+			[
+				"syntax: css",
+				"Set Syntax: SCSS"
+			],
+			[
+				"autop",
+				"Autoprefix CSS"
+			],
+			[
+				"wr",
+				"Word Wrap: Toggle"
+			],
+			[
+				"linter",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"error",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"colorpick",
+				"Color Picker"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"conflict",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"1 ",
+				"Text Pastry: From 1 To X"
+			],
+			[
+				"build",
+				"Build With: Devins Sass Build"
+			],
+			[
+				"settings",
+				"Nodejs::User File Settings"
+			],
+			[
+				"node build",
+				"Nodejs::Build Completions"
+			],
+			[
+				"prefix",
+				"Autoprefix CSS"
+			],
+			[
+				"project save",
+				"Project: Save As"
+			],
+			[
+				"picker",
+				"Color Picker"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"onelink",
+				"(OneLink) Open selected bug ticket in-browser"
+			],
+			[
+				"boxy",
+				"Boxy Theme: Activation"
+			],
+			[
+				"package create",
+				"Package Control: Create Package File"
+			],
+			[
+				"create pack",
+				"Package Control: Create Package File"
+			],
+			[
+				"colo",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"list p",
+				"Package Control: List Packages"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"cheat",
+				"Cheat Sheet: Regular Expressions"
+			],
+			[
+				"1 to",
+				"Text Pastry: From 1 To X"
+			],
+			[
+				"table",
+				"Table Editor: Show demo film in new scratch view"
+			],
+			[
+				"date",
+				"InsertDate: Default"
+			],
+			[
+				"alph",
+				"SortBy: Alphabetically"
+			],
+			[
+				"url",
+				"URL Decode"
+			],
+			[
+				"by sele",
+				"Sort Lines by Selection"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"build with",
+				"Build With: Python"
+			],
+			[
+				"pastry",
+				"Text Pastry: Range"
+			],
+			[
+				"range",
+				"Text Pastry: Range"
+			],
+			[
+				"math",
+				"Emmet: Evaluate Math Expression"
+			],
+			[
+				"sort",
+				"Sort Lines by Selection"
+			],
+			[
+				"evaluate",
+				"Emmet: Evaluate Math Expression"
+			],
+			[
+				"table editor en",
+				"Table Editor: Enable for current syntax"
+			],
+			[
+				"fold",
+				"Code Folding: Fold All"
+			],
+			[
+				"syntax",
+				"Set Syntax: Markdown"
+			],
+			[
+				"pretty",
+				"Pretty YAML: Reformat (Pretty Print) YAML"
+			],
+			[
+				"disco",
+				"Package Control: Discover Packages"
+			],
+			[
+				"yam",
+				"Set Syntax: YAML"
+			],
+			[
+				"theme",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown"
+			],
+			[
+				"task",
+				"Set Syntax: Tasks"
+			],
+			[
+				"syntax not",
+				"Set Syntax: Note"
+			],
+			[
+				"note",
+				"Set Syntax: Note"
+			],
+			[
+				"keybindings",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"unicod",
+				"Unicode Character Insert: Show Panel"
+			],
+			[
+				"character",
+				"Unicode Character Insert: Show Panel"
+			],
+			[
+				"case low",
+				"Convert Case: Lower Case"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"csv",
+				"Table Editor: Convert to CSV"
+			],
+			[
+				"command",
+				"PackageDev: New Commands File"
+			],
+			[
+				"uniq",
+				"Permute Lines: Unique"
+			],
+			[
+				"trail",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"table ",
+				"Table Editor: Enable for current view"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"discov",
+				"Package Control: Discover Packages"
+			],
+			[
+				"trai",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"case",
+				"Convert Case: Title Case"
+			],
+			[
+				"resour",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"trailing",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"disc",
+				"Package Control: Discover Packages"
+			],
+			[
+				"table editor hel",
+				"Table Editor: Show demo film in new scratch view"
+			],
+			[
+				"quick",
+				"Project: Quick Switch Project…"
+			],
+			[
+				"project",
+				"Project: Switch Project…"
+			],
+			[
+				"snippet",
+				"Snippet: Insert a solid horizontal line"
+			],
+			[
+				"colors",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"resou",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"packagedev",
+				"PackageDev: Convert (YAML, JSON, PList) to…"
+			],
+			[
+				"resource v",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"key bind",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"white",
+				"Whitespace: Remove Trailing Whitespace"
+			],
+			[
+				"json",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"markdow",
+				"Build With: Markdown"
+			],
+			[
+				"syntax: mark",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"alig",
+				"AlignTab"
+			],
+			[
+				"align",
+				"AlignTab"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"sort lin",
+				"Sort Lines by Selection"
+			],
+			[
+				"ali",
+				"AlignTab: Live Preview Mode"
+			],
+			[
+				"syntax shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"discover",
+				"Package Control: Discover Packages"
+			],
+			[
+				"diff",
+				"FileDiffs: Menu"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 703.0
+	},
+	"console":
+	{
+		"height": 235.0,
+		"history":
+		[
+			"[ v.settings().erase(\"color_scheme\") for views in [ w.views() for w in sublime.windows() ] for v in views ]",
+			"man",
+			"help",
+			"ls",
+			"console.log(\"thing\");",
+			"?",
+			"help",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/devin/Dropbox/Projects/UnityTute/Tute/Assets/Scripts"
+	],
+	"file_history":
+	[
+		"/home/devin/Dropbox/Projects/UnityTute/Tute/Assets/Scripts/CameraLock.cs",
+		"/home/devin/Dropbox/Projects/UnityTute/Tute/Assets/Scripts/UnityTuteScripts.sublime-project",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/_styles/main.scss",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/_templates/data/hbData.json",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/_templates/layouts/includes/svg_site-logo.hbs",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/_templates/layouts/base.hbs",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/index.hbs",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/about-me/index.hbs",
+		"/home/devin/Dropbox/Projects/devindodson.com/.netlify",
+		"/home/devin/.config/google-chrome/Default/Preferences",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/_headers",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/_templates/layouts/baseTest.hbs",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/_images/pasture.jpg",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/_styles/styles.scss",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/test/index.hbs",
+		"/home/devin/Dropbox/Projects/devindodson.com/gulpfile.js",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/_scripts/template.js",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/_scripts/homepage.js",
+		"/home/devin/Dropbox/Projects/React-tutorial/react-tutorial.sublime-project",
+		"/home/devin/.config/sublime-text-3/Packages/User/.jsbeautifyrc",
+		"/home/devin/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/home/devin/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc.defaults.json",
+		"/home/devin/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/src/js/main.js",
+		"/home/devin/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/build/js-transpiled/node_modules/js-beautify/js/lib/beautify-html.js",
+		"/home/devin/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/build/js-transpiled/node_modules/js-beautify/js/bin/html-beautify.js",
+		"/home/devin/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.py",
+		"/home/devin/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/src/py/main.py",
+		"/home/devin/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/src/py/commands.py",
+		"/home/devin/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/src/py/utils/window_utils.py",
+		"/home/devin/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/src/py/utils/web_utils.py",
+		"/home/devin/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/src/py/utils/script_utils.py",
+		"/home/devin/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/src/py/utils/file_utils.py",
+		"/home/devin/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/src/py/utils/env_utils.py",
+		"/home/devin/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/src/py/utils/editor_utils.py",
+		"/home/devin/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/src/js/utils/stdioUtils.js",
+		"/home/devin/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/src/js/utils/paths.js",
+		"/home/devin/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/src/js/utils/jsonUtils.js",
+		"/home/devin/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/src/js/utils/fileUtils.js",
+		"/home/devin/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/src/js/utils/editorconfigUtils.js",
+		"/home/devin/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/src/js/utils/constants.js",
+		"/home/devin/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/src/js/utils/configSanitizers.js",
+		"/home/devin/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/src/js/utils/configUtils.js",
+		"/home/devin/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/build/js-transpiled/shared/spawn.js",
+		"/home/devin/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/build/js-transpiled/main.js",
+		"/home/devin/Downloads/setup.py",
+		"/etc/hosts",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/_templates/layouts/includes/svg_github.hbs",
+		"/home/devin/Dropbox/Projects/devindodson.com/build/_styles/main.css",
+		"/home/devin/Dropbox/Projects/devindodson.com/build/_scripts/homepage.js",
+		"/home/devin/Dropbox/Projects/devindodson.com/build/_styles/_lib/normalize.css",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/_scripts/smoothscroll.js",
+		"/home/devin/Dropbox/Projects/devindodson.com/todo.todo",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/_templates/layouts/includes/svg_chrome.hbs",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/_templates/layouts/includes/svg_contact-me.hbs",
+		"/home/devin/Dropbox/Projects/devindodson.com/resources/svg/initial-logo-2_optimized.svg",
+		"/home/devin/Dropbox/Projects/devindodson.com/resources/initial-logo.png",
+		"/home/devin/Dropbox/Projects/devindodson.com/resources/svg/google-chrome.svg",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/_templates/layouts/includes/svg_linkedIn.hbs",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/_templates/layouts/includes/svg_resume.hbs",
+		"/home/devin/Dropbox/Sync-Profiles/shared.bashrc",
+		"/home/devin/Dropbox/Projects/devindodson.com/resources/maybe-blog-stuff.md",
+		"/home/devin/Dropbox/Projects/devindodson.com/build/index.html",
+		"/home/devin/Dropbox/Projects/devindodson.com/build/_scripts/template.js",
+		"/home/devin/.bashrc",
+		"/home/devin/.config/sublime-text-3/Packages/AlignTab/Context.sublime-menu",
+		"/home/devin/Dropbox/Projects/devindodson.com/build/_headers",
+		"/home/devin/Dropbox/Projects/devindodson.com/build/about-me/index.html",
+		"/home/devin/Dropbox/Projects/devindodson.com/build/contact-me/index.html",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/_templates/data/data.json",
+		"/home/devin/.config/sublime-text-3/Packages/User/Emmet.sublime-settings",
+		"/home/devin/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/devin/.config/sublime-text-3/Packages/Emmet/Emmet.sublime-settings",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/faviconData.json",
+		"/home/devin/Dropbox/Projects/devindodson.com/resources/archived.md",
+		"/home/devin/Dropbox/Projects/devindodson.com/package.json",
+		"/home/devin/Dropbox/Projects/devindodson.com/build/resume/index.html",
+		"/home/devin/Dropbox/Projects/devindodson.com/.gitignore",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/resume/index.hbs",
+		"/home/devin/Dropbox/Projects/devindodson.com/.nvmrc",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/contact-me/index.hbs",
+		"/home/devin/Dropbox/Projects/devindodson.com/devin-dodson-dot-com.sublime-workspace",
+		"/home/devin/Dropbox/Projects/devindodson.com/build/_styles/styles.css",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/_styles/normalize.css",
+		"/home/devin/Dropbox/Projects/devindodson.com/build/_styles/styles.scss",
+		"/home/devin/Dropbox/Projects/devindodson.com/build/_styles/normalize.css",
+		"/home/devin/Dropbox/Projects/devindodson.com/_config.yml",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/_config.yml",
+		"/home/devin/Dropbox/Projects/devindodson.com/faviconData.json",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/_templates/layouts/includes/attributions.hbs",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/_templates/layouts/includes/svg_contactMe.hbs",
+		"/home/devin/Dropbox/Projects/devindodson.com/build/resume/Devin-Dodson-resume.html",
+		"/home/devin/Dropbox/Projects/devindodson.com/build/_templates/layouts/base.html",
+		"/home/devin/Dropbox/Projects/devindodson.com/build/index.hbs",
+		"/home/devin/Dropbox/Projects/devindodson.com/node_modules/handlebars/README.markdown",
+		"/home/devin/Dropbox/Projects/devindodson.com/package-lock.json",
+		"/home/devin/Dropbox/Projects/devindodson.com/build/_templates/layouts/test.hbs",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/_templates/layouts/test.html",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/index.html",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/_templates/layouts/base.html",
+		"/home/devin/Dropbox/Projects/devindodson.com/dist/index.html",
+		"/home/devin/Dropbox/Projects/devindodson.com/dist/resume/index.html",
+		"/home/devin/Dropbox/Projects/devindodson.com/dist/_styles/styles.css",
+		"/home/devin/Dropbox/workTodo.todo",
+		"/home/devin/Dropbox/Projects/devindodson.com/dist/styles.css",
+		"/home/devin/Dropbox/Projects/devindodson.com/.sublime-gulp.cache",
+		"/home/devin/Dropbox/Projects/devindodson.com/dist/resume/Devin-Dodson-resume.html",
+		"/home/devin/Dropbox/Projects/devindodson.com/dist/contact-me/index.html",
+		"/home/devin/Dropbox/Projects/devindodson.com/dist/_icon/resume/Devin-Dodson-resume.html",
+		"/home/devin/Dropbox/Projects/devindodson.com/dist/_icon/resume/index.html",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/contact-me/index.html",
+		"/home/devin/Dropbox/Projects/devindodson.com/dist/**/*.html/index.html",
+		"/home/devin/Dropbox/Projects/devindodson.com/dist/_styles/main.min.css",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/manifest.json",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/LICENSE",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/resume/index.html",
+		"/home/devin/Dropbox/Projects/devindodson.com/development/_styles/styles.scss",
+		"/home/devin/Dropbox/Projects/devindodson.com/development/index.html",
+		"/home/devin/Dropbox/Projects/devindodson.com/development/manifest.json",
+		"/home/devin/Dropbox/Projects/devindodson.com/distribution/browserconfig.xml",
+		"/home/devin/Dropbox/Projects/devindodson.com/development/css/styles.scss",
+		"/home/devin/Dropbox/Projects/devindodson.com/development/css/styles.css",
+		"/home/devin/Dropbox/Projects/devindodson.com/styles.scss",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/scripts/template.js",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/resume/Devin-Dodson-resume.html",
+		"/home/devin/Dropbox/Projects/devindodson.com/source/scripts/homepage.js",
+		"/home/devin/.config/sublime-text-3/Packages/Gulp/Gulp.sublime-settings",
+		"/usr/bin/env",
+		"/home/devin/.config/sublime-text-3/Packages/User/Gulp.sublime-settings"
+	],
+	"find":
+	{
+		"height": 54.0
+	},
+	"find_in_files":
+	{
+		"height": 307.0,
+		"where_history":
+		[
+			"/home/devin/Dropbox/Projects/devindodson.com/",
+			"C:\\Users\\ddodson\\Documents\\Documents\\",
+			"W:\\usr\\local\\packages\\smt\\isola\\en2zh",
+			"W:\\usr\\local\\packages\\smt\\uptimeinstitute\\en2es",
+			"W:\\usr\\local\\packages\\smt\\wahoofitness\\en2de",
+			"W:\\usr\\local\\packages\\smt\\wahoofitness\\en2it",
+			"W:\\usr\\local\\packages\\smt\\wahoofitness\\en2es",
+			"W:\\usr\\local\\packages\\smt\\wahoofitness\\en2de",
+			"W:\\usr\\local\\packages\\smt\\wahoofitness",
+			"W:\\usr\\local\\packages\\smt\\wahoofitness\\en2de",
+			"W:\\usr\\local\\packages\\smt\\uptimeinstitute\\en2pt",
+			"W:\\usr\\local\\packages\\smt\\uptimeinstitute",
+			"W:\\usr\\local\\packages\\smt\\uptimeinstitute\\en2ru",
+			"W:\\usr\\local\\packages\\smt\\uptimeinstitute\\en2pt",
+			"W:\\usr\\local\\packages\\smt\\uptimeinstitute\\en2ru",
+			"W:\\usr\\local\\packages\\smt\\lumentum\\en2jajp",
+			"W:\\usr\\local\\packages\\smt\\happyplugs\\en2ruru",
+			"W:\\usr\\local\\packages\\smt\\happyplugs",
+			"W:\\usr\\local\\packages\\smt\\happyplugs\\en2ruru",
+			"W:\\usr\\local\\packages\\smt\\happyplugs"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"moveleft",
+			"moveright",
+			"rb",
+			"MediaPlayPause",
+			"MediaNextTrack",
+			"navbar-content",
+			"wrap",
+			"primary-content",
+			"li {",
+			"ol",
+			"li",
+			"p><strong",
+			"#3990CC",
+			"#8abde1",
+			":after",
+			".95",
+			"transition",
+			"collapsed",
+			"navbarCollapser",
+			"active",
+			"border-bottom",
+			"collaps",
+			"attributionExpando",
+			"999",
+			"1000px",
+			"hover",
+			"#navbar",
+			"'{'",
+			"{{#",
+			"*",
+			"/*",
+			"*",
+			"handlebars",
+			"inline",
+			"cutils",
+			"beautify",
+			"60",
+			"media",
+			"sizing",
+			"box-sizing",
+			"navbar",
+			"sidebar",
+			"footer",
+			"button",
+			"sidenav",
+			"left",
+			"project",
+			"@media",
+			"after",
+			"left",
+			"\t\tborder-top-left-radius: 0;\n\t\tborder-bottom-left-radius: 0;\n",
+			"<button >",
+			"collapsing",
+			"#intro",
+			"%)",
+			"8%);",
+			"%)",
+			"%",
+			"50%{",
+			"%",
+			"collapsing-spacer",
+			"70vh",
+			"container",
+			"top-level",
+			"intro",
+			";\n",
+			"primary-content",
+			"header",
+			"padding-left",
+			"primary-content",
+			"#banner",
+			"splash-",
+			"arguments",
+			".container",
+			"padding",
+			"splash-con",
+			"primary-content",
+			"#primary-content",
+			"g17",
+			"color_7",
+			"$color_6",
+			"40em",
+			"40",
+			"$color_off-white",
+			"border",
+			"font-size",
+			"p",
+			"1",
+			" 'none'",
+			"'unsafe-inline' ",
+			"platform",
+			"Do something under ",
+			"then",
+			"; ",
+			"checkwinsize",
+			"link",
+			"var",
+			"'handlebars'",
+			"var",
+			"'",
+			"templateLogic",
+			"var",
+			"main",
+			"pretty much",
+			"size",
+			"25em",
+			"font-size",
+			"handlebars",
+			"‒",
+			"-- ",
+			"--",
+			"font-size",
+			"[^\\/]font-size",
+			"font-size",
+			"fs",
+			"inject-favicon-markups",
+			",",
+			", ",
+			"sourceFolder",
+			"`, `!${",
+			", ",
+			"web",
+			"'jekyll",
+			"'build'",
+			"+",
+			"'",
+			" + '",
+			" '"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"+",
+			",",
+			"|",
+			",",
+			"",
+			",",
+			" && ",
+			"&&",
+			".com/OneLinkOPE",
+			"zt-silabs.onelink-translations",
+			"Finisar",
+			"%20",
+			"/* WF-355 */\n.banner-msg-container > .banner-msg > p{\n\tbackground-color: gray;\n\tpadding: 10px !important;\n}",
+			"Devin",
+			"",
+			"happyplugs",
+			"ruru",
+			"RU-RU",
+			"happyplugs"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 215,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								215,
+								215
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"default_dir": "/home/devin/Dropbox/Projects/devindodson.com",
+							"dired_count": 8,
+							"dired_index":
+							[
+								"⠤",
+								"/home/devin/Dropbox/Projects/UnityTute/Tute/Assets/Scripts/Controls.cs",
+								"/home/devin/Dropbox/Projects/UnityTute/Tute/Assets/Scripts/Controls.cs.meta",
+								"/home/devin/Dropbox/Projects/UnityTute/Tute/Assets/Scripts/Touch.cs",
+								"/home/devin/Dropbox/Projects/UnityTute/Tute/Assets/Scripts/Touch.cs.meta",
+								"/home/devin/Dropbox/Projects/UnityTute/Tute/Assets/Scripts/UnityTuteScripts.sublime-project",
+								"/home/devin/Dropbox/Projects/UnityTute/Tute/Assets/Scripts/UnityTuteScripts.sublime-project.meta",
+								"/home/devin/Dropbox/Projects/UnityTute/Tute/Assets/Scripts/UnityTuteScripts.sublime-workspace",
+								"/home/devin/Dropbox/Projects/UnityTute/Tute/Assets/Scripts/UnityTuteScripts.sublime-workspace.meta"
+							],
+							"dired_path": "/home/devin/Dropbox/Projects/UnityTute/Tute/Assets/Scripts/",
+							"dired_rename_mode": false,
+							"syntax": "Packages/FileBrowser/dired.sublime-syntax",
+							"syntax_mgr_loaded": true
+						},
+						"translation.x": 78.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "Controls.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 909,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								688,
+								688
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										687,
+										688
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										677,
+										678
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/C#/C#.sublime-syntax",
+							"syntax_mgr_loaded": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Touch.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 569,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								397,
+								397
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										402,
+										403
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										330,
+										331
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/C#/C#.sublime-syntax",
+							"syntax_mgr_loaded": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 646,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								632,
+								632
+							]
+						],
+						"settings":
+						{
+							"auto_name": "I worked with a team that was responsible for the",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"default_dir": "/home/devin/Dropbox/Projects/UnityTute/Tute/Assets/Scripts",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"syntax_mgr_loaded": true,
+							"wrap_width": 0
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/devin/Dropbox/Home/Resumes/resume-sections.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 552,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								552,
+								552
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"syntax_mgr_loaded": true,
+							"wrap_width": 0
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/devin/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1201,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1199,
+								1199
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1199,
+										1200
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										0,
+										1
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/PackageDev/Package/Sublime Text Settings/Sublime Text Settings.sublime-syntax",
+							"syntax_mgr_loaded": true,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 242,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								242,
+								242
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Experience with Oracle tools and PL/SQL",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"default_dir": "/home/devin/Dropbox/Projects/UnityTute/Tute/Assets/Scripts",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"syntax_mgr_loaded": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 52.0
+	},
+	"input":
+	{
+		"height": 69.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.25,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 116.0
+	},
+	"output.find_results":
+	{
+		"height": 124.0
+	},
+	"output.gulp_output":
+	{
+		"height": 313.0
+	},
+	"output.jotter":
+	{
+		"height": 124.0
+	},
+	"output.markdown":
+	{
+		"height": 124.0
+	},
+	"output.nodejs":
+	{
+		"height": 142.0
+	},
+	"output.package_dev":
+	{
+		"height": 130.0
+	},
+	"pinned_build_system": "Packages/User/Devins Sass Build.sublime-build",
+	"project": "UnityTuteScripts.sublime-project",
+	"replace":
+	{
+		"height": 98.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"lument",
+				"C:\\Users\\ddodson\\Documents\\My Clients\\Lumentum\\Lumentum.sublime-project"
+			],
+			[
+				"lum",
+				"C:\\Users\\ddodson\\Documents\\My Clients\\Lumentum\\Lumentum.sublime-project"
+			],
+			[
+				"wash",
+				"C:\\Users\\ddodson\\Documents\\My Clients\\Washington Federal\\WashingtonFederal.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 390.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 365.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

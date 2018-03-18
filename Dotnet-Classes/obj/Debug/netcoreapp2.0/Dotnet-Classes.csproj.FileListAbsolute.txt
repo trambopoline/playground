@@ -1,0 +1,10 @@
+C:\Users\Devin\Dropbox (Personal)\Projects\Tutorials\Dotnet-Classes\bin\Debug\netcoreapp2.0\Dotnet-Classes.deps.json
+C:\Users\Devin\Dropbox (Personal)\Projects\Tutorials\Dotnet-Classes\bin\Debug\netcoreapp2.0\Dotnet-Classes.runtimeconfig.json
+C:\Users\Devin\Dropbox (Personal)\Projects\Tutorials\Dotnet-Classes\bin\Debug\netcoreapp2.0\Dotnet-Classes.runtimeconfig.dev.json
+C:\Users\Devin\Dropbox (Personal)\Projects\Tutorials\Dotnet-Classes\bin\Debug\netcoreapp2.0\Dotnet-Classes.dll
+C:\Users\Devin\Dropbox (Personal)\Projects\Tutorials\Dotnet-Classes\bin\Debug\netcoreapp2.0\Dotnet-Classes.pdb
+C:\Users\Devin\Dropbox (Personal)\Projects\Tutorials\Dotnet-Classes\obj\Debug\netcoreapp2.0\Dotnet-Classes.csproj.CoreCompileInputs.cache
+C:\Users\Devin\Dropbox (Personal)\Projects\Tutorials\Dotnet-Classes\obj\Debug\netcoreapp2.0\Dotnet-Classes.AssemblyInfoInputs.cache
+C:\Users\Devin\Dropbox (Personal)\Projects\Tutorials\Dotnet-Classes\obj\Debug\netcoreapp2.0\Dotnet-Classes.AssemblyInfo.cs
+C:\Users\Devin\Dropbox (Personal)\Projects\Tutorials\Dotnet-Classes\obj\Debug\netcoreapp2.0\Dotnet-Classes.dll
+C:\Users\Devin\Dropbox (Personal)\Projects\Tutorials\Dotnet-Classes\obj\Debug\netcoreapp2.0\Dotnet-Classes.pdb
