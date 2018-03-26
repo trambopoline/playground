@@ -1,0 +1,21 @@
+{
+  "name": "listy-server",
+  "version": "1.0.0",
+  "description": "A simple list API",
+  "main": "server.js",
+  "scripts": {
+    "dev-server": "nodemon ./server.js localhost"
+  },
+  "keywords": [
+    "list",
+    "express"
+  ],
+  "author": "Devin",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
