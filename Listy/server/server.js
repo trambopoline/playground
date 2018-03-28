@@ -6,38 +6,39 @@ const helmet = require('helmet');
 const rdb = require('rethinkdb');
 require('rethinkdb-init')(rdb);
 require('dotenv').config();
-// const rdb = require('./database');
 const app = express();
 
 const port = process.env.SERVER_PORT;
 const host = process.env.SERVER_HOST;
+
+// Database Initialization
+// =============================================================================
 
 const dbPort = process.env.DB_PORT;
 const dbName = process.env.DB_NAME;
 const listTableName = 'listItem';
 let connection = null;
 
-//Create the database and table if it doesn't exist already
 rdb.init({
-    host,
-    port: dbPort,
-    db: dbName
-},
-    [listTableName])
-    .then(function (conn)
-    {
-        console.log(conn)
+        host,
+        port: dbPort,
+        db: dbName
+    }, [listTableName])
+    .then(function (conn) {
+        console.log(`Database initialization complete\n\tTable: ${listTableName},\n\tDatabase: ${dbName}`);
     });
 
 rdb.connect({
     host,
     port: dbPort,
     db: dbName
-}, function (err, conn)
-    {
-        if (err) throw err;
-        connection = conn;
-    });
+}, function (err, conn) {
+    if (err) throw err;
+    connection = conn;
+});
+
+// App setup
+// =============================================================================
 
 app.use(logger('dev'));
 app.use(bodyParser.urlencoded({
@@ -58,8 +59,13 @@ const server = app.listen(port, function () {
     console.log(`App is listening on http://${host}:${port}`);
 });
 
+// API routes
+// =============================================================================
+
+let router = express.Router();
+
 // Get the entire list
-app.get('/list', function (req, res) {
+router.get('/list', function (req, res) {
     rdb.table(listTableName).run(connection, function (err, cursor) {
         if (err) throw err;
         cursor.toArray(function (err, result) {
@@ -70,7 +76,7 @@ app.get('/list', function (req, res) {
 });
 
 // Get specific list item
-app.get('/list/:listItemKey', function (req, res) {
+router.get('/list/:listItemKey', function (req, res) {
     const listItemKey = req.params.listItemKey;
     rdb.table(listTableName).get(listItemKey).run(connection, function (err, result) {
         if (err) throw err;
@@ -85,7 +91,7 @@ app.get('/list/:listItemKey', function (req, res) {
 });
 
 // Create a new list item
-app.post('/list', function (req, res) {
+router.post('/list', function (req, res) {
     const newListItem = req.body.content;
     if (!newListItem) {
         res.status(400).json({
@@ -106,7 +112,7 @@ app.post('/list', function (req, res) {
 });
 
 // Update a list item
-app.put('/list/:listItemKey', function (req, res) {
+router.put('/list/:listItemKey', function (req, res) {
     const listItemKey = req.params.listItemKey;
     const updatedListItem = req.body.content;
     if (!updatedListItem) {
@@ -131,7 +137,7 @@ app.put('/list/:listItemKey', function (req, res) {
 });
 
 // Delete a list item
-app.delete('/list/:listItemKey', function (req, res) {
+router.delete('/list/:listItemKey', function (req, res) {
     const listItemKey = req.params.listItemKey;
 
     rdb.table(listTableName).get(listItemKey).delete().run(connection, function (err, result) {
@@ -145,3 +151,5 @@ app.delete('/list/:listItemKey', function (req, res) {
         });
     });
 });
+
+app.use('/api', router);
