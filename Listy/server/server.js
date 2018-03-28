@@ -25,7 +25,10 @@ rdb.init({
         db: dbName
     }, [listTableName])
     .then(function (conn) {
-        console.log(`Database initialization complete\n\tTable: ${listTableName},\n\tDatabase: ${dbName}`);
+        console.log("\x1b[32m", "Database initialization complete\n" +
+        "########################################\n"+
+        `#\tDatabase: ${dbName}\n#\tTable: ${listTableName}\n`+
+        "########################################");
     });
 
 rdb.connect({
@@ -56,7 +59,7 @@ app.use(function (error, request, response, next) {
 });
 
 const server = app.listen(port, function () {
-    console.log(`App is listening on http://${host}:${port}`);
+    console.log("\x1b[36m"+`\nApp is listening on http://${host}:${port}\n`);
 });
 
 // API routes
@@ -152,4 +155,5 @@ router.delete('/list/:listItemKey', function (req, res) {
     });
 });
 
+// Prepend all api routes
 app.use('/api', router);
