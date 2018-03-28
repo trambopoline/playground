@@ -1,85 +1,144 @@
- const express = require('express');
- const app = express();
- const bodyParser = require('body-parser');
- const port = 8080;
- const dummyList = require('./dummy.json');
+const express = require('express');
+const bodyParser = require('body-parser');
+const logger = require('morgan');
+const cors = require('cors');
+const helmet = require('helmet');
+require('dotenv').config();
 
- app.use(bodyParser.json());
+const rdb = require('rethinkdb');
+const app = express();
 
- // start the server
- app.listen(port, function () {
-     console.log(`Development server is running at https://localhost:${port}`);
- });
+const port = process.env.SERVER_PORT;
+const host = process.env.SERVER_HOST;
 
- // Get the entire list
- app.get('/list', function (req, res) {
-     res.json(dummyList)
- });
+//Database
+const dbPort = process.env.DB_PORT;
+const dbName = process.env.DB_NAME;
+const listTableName = 'listItem';
+let connection = null;
 
- // Get specific list item
- app.get('/list/:listItemIndex', function (req, res) {
-     const listItemIndex = req.params.listItemIndex;
-     if (dummyList[listItemIndex]) {
-         res.json(dummyList[listItemIndex])
-         return;
-     }
-     res.status(400).json({
-         "error": `Cannot get the specified list item, because there is no list item with index: ${listItemIndex}`
-     })
- });
+rdb.connect({ host, port: dbPort, db: dbName }, function (err, conn)
+{
+    if (err) throw err;
+    connection = conn;
+});
+// rdb.db(dbName).tableCreate('listy').run(connection, function (err, result)
+// {
+//     if (err) throw err;
+//     console.log(JSON.stringify(result, null, 2));
+// });
 
- // Create a new list item
- app.post('/list', function (req, res) {
-     const newListItem = req.body.content;
 
-     if (newListItem) {
-         dummyList.push({
-             content: newListItem
-         });
-         console.log(dummyList);
-         res.json(newListItem);
-     }
- });
+app.use(logger('dev'));
+app.use(bodyParser.urlencoded({
+    extended: false
+}));
+app.use(bodyParser.json());
+app.use(cors());
+app.use(helmet());
 
- // Update a list item
- app.put('/list/:listItemIndex', function (req, res) {
-     const listItemIndex = req.params.listItemIndex;
-     const updatedListItem = req.body.content;
+app.use(function (error, request, response, next) {
+    response.status(error.status || 500);
+    response.json({
+        error: error.message
+    });
+});
 
-     if (!updatedListItem) {
-         res.status(400).json({
-             "error": `Submitted list item cannot be empty`
-         });
-         return;
-     }
-     if (dummyList[listItemIndex]) {
-         dummyList[listItemIndex] = {
-             "content": updatedListItem
-         };
-         res.json(dummyList[listItemIndex]);
+const server = app.listen(port, function () {
+    console.log(`App is listening on http://${host}:${port}`);
+});
 
-         return;
-     }
-     res.status(400).json({
-         "error": `Cannot update that list item, because there is no item with index: ${listItemIndex}`
-     })
- });
+// Get the entire list
+app.get('/list', function (req, res) {
+    rdb.table(listTableName).run(connection, function (err, cursor)
+    {
+        if (err) throw err;
+        cursor.toArray(function (err, result)
+        {
+            if (err) throw err;
+            res.json(result);
+        });
+    });
+});
 
- // Delete a list item
- app.delete('/list/:listItemIndex', function (req, res) {
-     const listItemIndex = req.params.listItemIndex;
-     const updatedListItem = req.body.content;
+// Get specific list item
+app.get('/list/:listItemKey', function (req, res) {
+    const listItemKey = req.params.listItemKey;
+    rdb.table(listTableName).get(listItemKey).run(connection, function (err, result)
+    {
+        if (err) throw err;
+        if( result ){
+            res.json(result);
+            return;
+        }
+        res.status(400).json({
+            "error": `There is no list item with ID ${listItemKey}`
+        });
+    });
+});
 
-     if (dummyList[listItemIndex]) {
-         let removed = dummyList.splice(listItemIndex, 1);
-         res.json({
-             "message": "Success",
-             "removed": removed
-         });
+// Create a new list item
+app.post('/list', function (req, res) {
+    const newListItem = req.body.content;
+    if( !newListItem )
+    {
+        res.status(400).json({
+            "error": `Submitted list items must have a non-empty 'content' field`
+        });
+        return;
+    }
+    rdb.table(listTableName).insert({ "content": newListItem }).run(connection, function (err, result)
+    {
+        if (err) throw err;
+        if (result.inserted === 1)
+        {
+            res.json(result.generated_keys[0]);
+            // console.log(result);
+            return;
+        }
+    });
+});
 
-         return;
-     }
-     res.status(400).json({
-         "error": `Cannot delete that list item, because there is no item with index: ${listItemIndex}`
-     })
- });
+// Update a list item
+app.put('/list/:listItemKey', function (req, res) {
+    const listItemKey = req.params.listItemKey;
+    const updatedListItem = req.body.content;
+    if (!updatedListItem)
+    {
+        res.status(400).json({
+            "error": `Submitted list items must have a non-empty 'content' field`
+        });
+        return;
+    }
+    rdb.table(listTableName).get(listItemKey).update({ "content": updatedListItem }).run(connection, function (err, result)
+    {
+        if (err) throw err;
+        if (result.replaced === 1 || result.unchanged === 1)
+        {
+            res.json(listItemKey);
+            return;
+        }
+        res.status(400).json({
+            "error": `There is no list item with ID ${listItemKey}`
+        });
+    });
+
+});
+
+// Delete a list item
+app.delete('/list/:listItemKey', function (req, res) {
+    const listItemKey = req.params.listItemKey;
+
+    rdb.table(listTableName).get(listItemKey).delete().run(connection, function (err, result)
+    {
+        if (err) throw err;
+        if (result.deleted === 1)
+        {
+            res.json(listItemKey);
+            return;
+        }
+        res.status(400).json({
+            "error": `There is no list item with ID ${listItemKey}`
+        });
+    });
+});
