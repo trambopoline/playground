@@ -27,6 +27,7 @@
 
 <script>
 import axios from "axios";
+import "../../node_modules/bulma/css/bulma.css";
 
 axios.interceptors.response.use(undefined, function(error) {
   console.error(error);
