@@ -8,7 +8,9 @@
   },
   "keywords": [
     "list",
-    "express"
+    "express",
+    "CRUD",
+    "REST"
   ],
   "author": "Devin",
   "license": "ISC",
