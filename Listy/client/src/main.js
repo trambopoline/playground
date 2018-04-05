@@ -4,6 +4,14 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import Buefy from "buefy";
+import "buefy/lib/buefy.css";
+
+import "@mdi/font/css/materialdesignicons.css";
+
+Vue.use(Buefy);
+// Vue.component(Buefy.Table.name, Buefy.Table);
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
